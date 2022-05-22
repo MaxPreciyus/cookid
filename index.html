@@ -8,9 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Ce qui s'affiche en titre d'onglet -->
-    <title>Oh My Food - Découvrez des restaurants d'exception</title>
+    <title>Cookid - mettre un truc sympa ici</title>
     <!-- Favicon -->
-    <link rel="icon" type="image/svg" href="images/logo/ohmyfood@2x.svg" sizes="16x16">
+    <link rel="icon" type="image/jpg" href="images/logos/cropped-Cookid_LogoWhiteBG_01-e1612622341918.jpg" sizes="16x16">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <script src="https://kit.fontawesome.com/46ae58ead9.js" crossorigin="anonymous"></script>
@@ -30,23 +30,75 @@
 <body>
     <div id="main">
 
+        <!-- HEADER DE LA PAGE  -->
+        <header class="header-wrapper">
+
+            <!-- bande supérieure du header -->
+            <div class="header-top">
+                <a href="https://www.instagram.com/cookid/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="mailto:contact@cookid.net"><i class="fa-regular fa-envelope"></i></a>
+                <button class="btn">Déposer une recette</button>
+                <a href="#"><img class="profil-picture__header--circle" src="images/profiles/Rebecca.jpg" height="75px"></a>
+            </div>
+
+            <!-- zone du header avec le logo -->
+            <div class="header__logo">
+                <a href="#"><img src="images/logos/cropped-Cookid_LogoWhiteBG_01-e1612622341918.jpg" height="125px"></a>
+            </div>
+
+            <!-- bande inférieure du header avec la navigation principale -->
+            <div class="header-bottom">
+
+                <!-- navigation principal e-->
+                <nav class="header-bottom-nav">
+                    <ul>
+                        <li class="header-bottom-nav__link"><a href="#">Recettes</a></li>
+                        <li class="header-bottom-nav__link"><a href="#">Themes</a></li>
+                        <li class="header-bottom-nav__link"><a href="#">Healthy</a></li>
+                        <li class="header-bottom-nav__link"><a href="#">Blog</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+            
+        </header>
+
+        <section class="hero-section">
+
+            <!-- Formulaire de Recherche -->
+            <form action="#" class="search">
+
+                <!-- Champ de Recherche -->
+               <input type="text" class="search__input" id="search__input" placeholder="Rechercher une recette, un ingrédient..." value=""><i class="fas fa-search"></i>
+
+               <!-- icone Rechercher (peut-être le mettre en bouton)-->
+                 
+
+           </form>
+
+        </section>
+
+
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <h2 class="footer__logo">logofooter</h2>
+
+            <!-- Navigation du footer -->
+            <nav class="nav">
+                <ul>
+                    <li class="nav__link"><a href="#">lien footer 01</a></li>
+                    <li class="nav__link"><a href="#">lien footer 02</a></li>
+                    <li class="nav__link"><a href="#">Lien footer 03</a></li>
+                    <li class="nav__link"><a href="#">lien footer 04</a></li>
+                </ul>
+            </nav>
+
+        </footer>
+
     </div>
+    <!-- Fin du div class="main" -->
 
-    <!-- FOOTER -->
-    <footer class="footer">
-        <h2 class="footer__logo">ohmyfood</h2>
-
-        <!-- Navigation du footer -->
-        <nav class="nav">
-            <ul>
-                <li class="nav__link"><a href="#"><i class="fa-solid fa-utensils"></i>Proposer un restaurant</a></li>
-                <li class="nav__link"><a href="#"><i class="fa-solid fa-handshake-angle"></i>Devenir partenaire</a></li>
-                <li class="nav__link"><a href="#">Mentions légales</a></li>
-                <li class="nav__link"><a href="mailto:hello@ohmyfood.com">Contact</a></li>
-            </ul>
-        </nav>
-
-    </footer>
 </body>
 
 </html>

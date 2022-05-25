@@ -1,9 +1,136 @@
 /* ***************************************
-HEADER
+GENERAL STYLES
 ****************************************** */
+nav, a {
+  text-decoration: none;
+}
+ul {
+  padding-left: 0;
+}
+
+
+
+/* ***************************************
+HEADER TOP
+****************************************** */
+
 .header-top {
+  height:70px ;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* --------- Left Elements ---------*/
+.fa-instagram, .fa-regular {
+  font-size: 20px;
+  margin-left: 10px;
+  color: black;
+}
+.fa-instagram:hover, .fa-regular:hover {
+  font-size: 20px;
+  margin-left: 10px;
+  color: gray;
+}
+.header-top__spacer {
+  flex-grow: 1;
+}
+
+/* --------- Right Elements ---------*/
+.btn__add-recipe {
+	background-color:#c39D54;
+  border-style: none;
+	border-radius: 50px;
+	cursor:pointer;
+	color:#ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	padding:12px 25px;
+  margin-right: 20px;
+}
+.btn__add-recipe:hover {
+  background-color: gray;
+}
+.profil-picture__header--circle {
+  clip-path: circle(20px);
+  margin-right: 10px;
+}
+.profil-picture__header--circle:hover {
+  opacity: 0.6;
+}
+
+
+
+/* ***************************************
+HEADER LOGO
+****************************************** */
+
+.header-logo {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.header-logo__logo {
+  display: flex;
+
+}
+.header-logo__logo:hover {
+  opacity: 0.6;
+}
+
+
+
+/* ***************************************
+HEADER BOTTOM
+****************************************** */
+
+/* --------- Navigation ---------*/
+.header-bottom-nav {
+  margin: auto;
+  padding-top: 1.4em;
+  padding-bottom: 1.4em;
+  max-width: 600px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  flex-wrap: nowrap;
+  justify-content: space-around;
   align-items: center;
+}
+.header-bottom-nav__link {
+  display: flex;
+  margin: auto;
+}
+.header-bottom-nav__link a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #2b2b2b;
+  text-transform: uppercase;
+}
+.header-bottom-nav__link a:hover {
+  color: #c39D54;
+}
+
+
+
+/* ***************************************
+HERO SECTION
+****************************************** */
+
+/* --------- Background image ---------*/
+.hero-section {
+  background-image: url("/images/hero/cuisine-juive.jpg");
+  background size: cover: ;
+  margin-left: 10%;
+  margin-right:10%;
+  max-width: 960px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 70px;
 }

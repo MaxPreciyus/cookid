@@ -46,6 +46,7 @@
             <div class="header-logo">
                 <a href="https://cookid.net"><img class="header-logo__logo" src="images/logos/cropped-Cookid_LogoWhiteBG_01-e1612622341918.jpg" height="90px"></a>
             </div>
+            <!-- Fin du header class="header-logo" -->
 
             <!-- bande inférieure du header avec la navigation principale -->
             <div class="header-bottom">
@@ -61,17 +62,19 @@
                 </nav>
 
             </div>
+            <!-- Fin du div class="header-bottom" -->
             
         </header>
 
-        <section class="hero-section">
+        <!-- Hero section OR MAYBE Slider-->
+        <section class="hero-section hero-background-image">
 
             <!-- Formulaire de Recherche -->
-            <form action="#" class="search">
+            <form method="get" action="traitement.php" class="hero-search">
 
                 <!-- Champ de Recherche -->
-                <input type="text" class="search__input" id="search__input" placeholder="Rechercher une recette, un ingrédient..." value=""><i class="fas fa-search"></i>
-
+                <input type="text" class="search__input" placeholder="Rechercher une recette, un ingrédient..." value="">
+                <button type="submit" class="search-button"><span class="fa fa-search"></span></button>
                 <!-- icone Rechercher (peut-être le mettre en bouton)-->
                  
 

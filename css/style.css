@@ -121,16 +121,47 @@ HERO SECTION
 ****************************************** */
 
 /* --------- Background image ---------*/
-.hero-section {
+.hero-background-image {
   background-image: url("/images/hero/cuisine-juive.jpg");
-  background size: cover: ;
-  margin-left: 10%;
-  margin-right:10%;
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+  min-height: 520px;
+
   max-width: 960px;
-  flex-direction: column;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  padding-bottom: 70px;
 }
+
+/* --------- Background image ---------*/
+.hero-search {
+  margin: auto;
+  display: flex;
+}
+.search__input {
+  opacity: 0.75;
+  width: 400px;
+  padding: 18px 10px;
+  border: 0;
+  outline: none;
+  border-radius: 10px;
+  font-size: 20px;
+}
+/*.search__input:focus {
+  color: #00B4CC;
+}*/
+.search-button {
+  background-color: rgba(0,0,0,0);
+  border: none;
+  text-align: center;
+  position: relative;
+  left: -45px;
+  font-size: 26px;
+  cursor: pointer;
+}
+.search-button:hover {
+  color: #c39D54;
+}
+  
